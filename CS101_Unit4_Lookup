@@ -1,0 +1,19 @@
+# I have tried many times!!!
+# very important to know how to use return - whether to put 'output' after 'return'
+# my code
+def lookup(index,keyword):
+    for i in index:
+        if i[0]==keyword:
+            output = i[1]
+            return output
+        else:
+            output = []
+    print output
+
+#Udacity code
+#very clean and intuitive!
+def lookup(index,keyword):
+    for entry in index:
+        if entry[0]==keyword:
+            return entry[1]
+    return []
