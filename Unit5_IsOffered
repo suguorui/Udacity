@@ -66,4 +66,4 @@ def courses_offered(courses, hexamester):
 #For example, is_offered(courses, 'cs101', 'dec2011') can produce an error.)
 
 def is_offered(courses, course, hexamester):
-    return c
+    return course in courses[hexamester]
