@@ -62,6 +62,15 @@ def courses_offered(courses, hexamester):
 #print when_offered (courses, 'cs101') => ['apr2012', 'feb2012']
 #print when_offered(courses, 'bio893') => []
 
+#Logics below
+# Create an empty list
+# for each hexamester
+# if the course need to find is in the courses bucket given hexaester
+# pin the hexamester to offered
+# else do nothing
+# when finish the for lookup
+# return offered
+
 def when_offered(courses,course):
     offered =[]
     for hexamester in courses:
